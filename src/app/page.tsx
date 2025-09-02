@@ -97,7 +97,7 @@ export default function Home() {
                 <span className="block text-cream-100/90">Ainge</span>
               </h1>
 
-              <div className="text-xl lg:text-2xl text-cream-100/80 mb-6 space-y-2">
+              <div className="text-xl lg:text-2xl text-forest-green-300 mb-6 space-y-2">
                 <motion.div
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -105,9 +105,9 @@ export default function Home() {
                   className="flex items-center space-x-3"
                 >
                   <span>Developer</span>
-                  <span className="text-cream-200">•</span>
+                  <span className="text-forest-green-400">•</span>
                   <span>Maker</span>
-                  <span className="text-cream-200">•</span>
+                  <span className="text-forest-green-400">•</span>
                   <span>Creator</span>
                 </motion.div>
               </div>
@@ -116,7 +116,7 @@ export default function Home() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
-                className="text-lg text-cream-100/70 mb-8 max-w-xl leading-relaxed"
+                className="text-lg text-forest-green-300 mb-8 max-w-xl leading-relaxed"
               >
                 Where code meets craft. I build digital solutions and create tangible art, 
                 bridging the gap between technology and traditional making through 

@@ -26,7 +26,7 @@
   }
 
   .modern-button {
-    @apply bg-forest-green-600 text-white px-8 py-4 font-medium
+    @apply bg-forest-green-600 text-forest-green-100 px-8 py-4 font-medium
            transition-all duration-300 hover:bg-forest-green-700 
            shadow-lg hover:shadow-xl active:scale-95 uppercase tracking-wide;
   }
@@ -34,7 +34,7 @@
   .modern-button-outline {
     @apply border-2 border-forest-green-600 text-forest-green-600 px-8 py-4 
            font-medium transition-all duration-300 hover:bg-forest-green-600 
-           hover:text-white shadow-lg hover:shadow-xl bg-transparent 
+           hover:text-forest-green-100 shadow-lg hover:shadow-xl bg-transparent 
            uppercase tracking-wide;
   }
 
@@ -59,15 +59,6 @@
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 253, 240, 0.8));
   }
 
-  .daily-quote::before {
-    content: '"';
-    @apply absolute top-2 left-6 text-6xl text-sage-green-400 font-serif leading-none;
-  }
-
-  .daily-quote::after {
-    content: '"';
-    @apply absolute bottom-2 right-6 text-6xl text-sage-green-400 font-serif leading-none;
-  }
 
   .project-card {
     @apply modern-card p-8 cursor-pointer relative overflow-hidden;
@@ -92,7 +83,7 @@
   }
 
   .nav-link {
-    @apply text-white font-medium transition-all duration-300 
+    @apply text-forest-green-100 font-medium transition-all duration-300 
            relative hover:text-mint-green-300 py-3 px-6 uppercase tracking-wide;
   }
 
@@ -157,7 +148,7 @@
   }
 
   .cafe-button {
-    @apply bg-forest-green-600 text-white px-8 py-4 font-medium
+    @apply bg-forest-green-600 text-forest-green-100 px-8 py-4 font-medium
            transition-all duration-300 hover:bg-forest-green-700 
            shadow-lg hover:shadow-xl active:scale-95 uppercase tracking-wide
            rounded-lg;
@@ -166,7 +157,7 @@
   .cafe-button-outline {
     @apply border-2 border-forest-green-600 text-forest-green-600 px-8 py-4 
            font-medium transition-all duration-300 hover:bg-forest-green-600 
-           hover:text-white shadow-lg hover:shadow-xl bg-transparent 
+           hover:text-forest-green-100 shadow-lg hover:shadow-xl bg-transparent 
            uppercase tracking-wide rounded-lg;
   }
 }

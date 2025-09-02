@@ -15,18 +15,18 @@ interface QuoteData {
 const sampleQuotes: QuoteData[] = [
   {
     id: '1',
-    text: "The intersection of technology and craft creates endless possibilities.",
+    text: "The intersection of technology and art creates endless possibilities.",
     author: "Yuki Ainge",
     date: '2024-01-15'
   },
   {
-    id: '2', 
-    text: "Every line of code is a brushstroke in the digital canvas.",
+    id: '2',
+    text: "Only to the extent that we expose ourselves over and over to anihilation can that which is indestructable be found within us.",
     date: '2024-01-16'
   },
   {
     id: '3',
-    text: "Traditional woodworking teaches patience that makes better developers.",
+    text: "The best time to plant a tree was 20 years ago, the second best time is now.",
     date: '2024-01-17'
   }
 ]
@@ -60,14 +60,10 @@ export default function DailyQuote() {
       transition={{ duration: 0.6, delay: 0.3 }}
     >
       <div className="flex items-start space-x-4">
-        <motion.div
-          className="bg-dark-wood-950 p-3 rounded-full flex-shrink-0"
-          animate={{ rotate: [0, 360] }}
-          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-        >
+        <div className="bg-dark-wood-950 p-3 rounded-full flex-shrink-0">
           <Quote className="h-6 w-6 text-cream-50" />
-        </motion.div>
-        
+        </div>
+
         <div className="flex-1 min-w-0">
           <AnimatePresence mode="wait">
             {isVisible && (
@@ -82,7 +78,7 @@ export default function DailyQuote() {
                 <p className="text-lg md:text-xl text-dark-wood-900 font-medium leading-relaxed mb-3">
                   {currentQuote.text}
                 </p>
-                
+
                 <div className="flex items-center justify-between">
                   <div>
                     {currentQuote.author && (
@@ -94,7 +90,7 @@ export default function DailyQuote() {
                       Daily inspiration
                     </p>
                   </div>
-                  
+
                   <motion.button
                     onClick={refreshQuote}
                     className="text-dark-wood-600 hover:text-dark-wood-800 transition-colors duration-300 p-2 rounded-full hover:bg-dark-wood-100"
@@ -116,27 +112,27 @@ export default function DailyQuote() {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
           className="absolute top-4 right-4 w-16 h-16 bg-dark-wood-200/20 rounded-full"
-          animate={{ 
+          animate={{
             scale: [1, 1.2, 1],
-            opacity: [0.3, 0.1, 0.3] 
+            opacity: [0.3, 0.1, 0.3]
           }}
-          transition={{ 
-            duration: 4, 
-            repeat: Infinity, 
-            ease: "easeInOut" 
+          transition={{
+            duration: 4,
+            repeat: Infinity,
+            ease: "easeInOut"
           }}
         />
         <motion.div
           className="absolute bottom-4 left-4 w-12 h-12 bg-dark-wood-300/20 rounded-full"
-          animate={{ 
+          animate={{
             scale: [1, 1.3, 1],
-            opacity: [0.2, 0.05, 0.2] 
+            opacity: [0.2, 0.05, 0.2]
           }}
-          transition={{ 
-            duration: 6, 
-            repeat: Infinity, 
+          transition={{
+            duration: 6,
+            repeat: Infinity,
             ease: "easeInOut",
-            delay: 1 
+            delay: 1
           }}
         />
       </div>
