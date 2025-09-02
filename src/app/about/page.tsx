@@ -101,13 +101,13 @@ export default function About() {
               
               <div className="space-y-6 text-lg text-dark-wood-700">
                 <p>
-                  I'm a developer, maker, and creator who believes in the power of both digital 
+                  I&apos;m a developer, maker, and creator who believes in the power of both digital 
                   and physical creation. My journey spans from writing clean code to crafting 
                   with wood, from designing electronic circuits to creating flow art performances.
                 </p>
                 <p>
                   What drives me is the intersection between technology and traditional craftsmanship. 
-                  Whether I'm building a web application, programming LED patterns for poi, or 
+                  Whether I&apos;m building a web application, programming LED patterns for poi, or 
                   hand-cutting dovetail joints, the same attention to detail and passion for 
                   problem-solving guides every project.
                 </p>
@@ -134,7 +134,7 @@ export default function About() {
                   </span>
                 </div>
                 <p className="text-dark-wood-700">
-                  "Where technology meets traditional craft"
+                  &ldquo;Where technology meets traditional craft&rdquo;
                 </p>
               </div>
 
@@ -299,10 +299,10 @@ export default function About() {
               My Philosophy
             </h2>
             <p className="text-xl text-dark-wood-700 leading-relaxed mb-8">
-              "The most meaningful work happens at the intersection of disciplines. 
+              &ldquo;The most meaningful work happens at the intersection of disciplines. 
               When we blend the precision of code with the intuition of craft, 
               the efficiency of technology with the wisdom of tradition, 
-              we create something truly extraordinary."
+              we create something truly extraordinary.&rdquo;
             </p>
             <div className="text-dark-wood-600 font-medium">
               — Yuki Ainge

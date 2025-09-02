@@ -1,9 +1,26 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Instagram, Mail, MessageSquare, ChevronRight, Globe, Coffee, Gamepad2, FileText, ShoppingBag, Code } from 'lucide-react'
+import { Github, Linkedin, Instagram, Mail, MessageSquare, ChevronRight, Globe, Coffee, Gamepad2, FileText, ShoppingBag, Code, LucideIcon } from 'lucide-react'
 
-const socialCategories = [
+type SocialLink = {
+  name: string;
+  handle: string;
+  url: string;
+  icon: LucideIcon;
+  description: string;
+  followers?: string;
+}
+
+type SocialCategory = {
+  title: string;
+  description: string;
+  color: string;
+  iconColor: string;
+  links: SocialLink[];
+}
+
+const socialCategories: SocialCategory[] = [
   {
     title: 'Professional',
     description: 'Connect with me for work opportunities and collaborations',
@@ -117,10 +134,10 @@ export default function Connect() {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="section-title mb-8">Let's Connect</h1>
+            <h1 className="section-title mb-8">Let&apos;s Connect</h1>
             <p className="text-xl text-dark-wood-700 max-w-3xl mx-auto leading-relaxed">
-              I believe in the power of meaningful connections. Whether you're interested in collaboration,
-              learning, or just want to chat about technology or craft, I'd love to hear from you.
+              I believe in the power of meaningful connections. Whether you&apos;re interested in collaboration,
+              learning, or just want to chat about technology or craft, I&apos;d love to hear from you.
             </p>
           </motion.div>
         </div>
@@ -180,9 +197,11 @@ export default function Connect() {
                             <p className="text-sm text-dark-wood-600 leading-relaxed mb-3">
                               {link.description}
                             </p>
-                            <div className="inline-block bg-white/80 px-3 py-1 rounded-full text-xs font-medium text-dark-wood-700">
-                              {link.followers}
-                            </div>
+                            {link.followers && (
+                              <div className="inline-block bg-white/80 px-3 py-1 rounded-full text-xs font-medium text-dark-wood-700">
+                                {link.followers}
+                              </div>
+                            )}
                           </div>
                         </div>
                       </motion.a>

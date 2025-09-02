@@ -142,10 +142,10 @@ export default function Store() {
             className="text-center"
           >
             <h1 className="section-title mb-8">Shop</h1>
-            //<p className="text-xl text-dark-wood-700 max-w-3xl mx-auto leading-relaxed">
-            //  Handcrafted goods, electronics kits, and digital products. Each item is created
-            //  with attention to detail and passion for quality craftsmanship.
-            //</p>
+            {/*<p className="text-xl text-dark-wood-700 max-w-3xl mx-auto leading-relaxed">
+              Handcrafted goods, electronics kits, and digital products. Each item is created
+              with attention to detail and passion for quality craftsmanship.
+            </p>*/}
           </motion.div>
 
           {/* Etsy Shop Link */}

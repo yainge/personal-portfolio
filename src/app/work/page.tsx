@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Filter, Github, ExternalLink, Calendar, Clock, Award } from 'lucide-react'
+import { motion } from 'framer-motion'
+import { Filter } from 'lucide-react'
 import projectsData from '@/data/projects.json'
 import ComingSoon from '@/components/ui/ComingSoon'
 
@@ -13,23 +13,12 @@ const categories = [
   { id: 'woodworking', name: 'Woodworking', count: projectsData.projects.filter(p => p.category === 'woodworking').length }
 ]
 
-const statusColors = {
-  'completed': 'bg-green-100 text-green-800',
-  'in-progress': 'bg-yellow-100 text-yellow-800',
-  'ongoing': 'bg-blue-100 text-blue-800'
-}
-
-const categoryColors = {
-  'electronics': 'bg-purple-100 text-purple-800',
-  'development': 'bg-blue-100 text-blue-800',
-  'woodworking': 'bg-amber-100 text-amber-800'
-}
 
 export default function Work() {
   const [activeCategory, setActiveCategory] = useState('all')
   const [sortBy, setSortBy] = useState('featured') // featured, year, title
 
-  const filteredProjects = useMemo(() => {
+  useMemo(() => {
     let filtered = activeCategory === 'all' 
       ? projectsData.projects 
       : projectsData.projects.filter(project => project.category === activeCategory)
@@ -143,8 +132,8 @@ export default function Work() {
               Interested in Collaborating?
             </h2>
             <p className="text-lg text-dark-wood-700 mb-8 max-w-2xl mx-auto">
-              I'm always excited to work on projects that blend technology with traditional craftsmanship. 
-              Let's create something amazing together.
+              I&apos;m always excited to work on projects that blend technology with traditional craftsmanship. 
+              Let&apos;s create something amazing together.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a href="/contact" className="cafe-button">

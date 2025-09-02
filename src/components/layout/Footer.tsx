@@ -50,10 +50,10 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <p className="text-dark-wood-800 text-sm italic">
-                "The intersection of technology and craft creates endless possibilities."
+                &ldquo;The intersection of technology and craft creates endless possibilities.&rdquo;
               </p>
               <span className="text-dark-wood-600 text-xs mt-1 block">
-                Today's inspiration
+                Today&apos;s inspiration
               </span>
             </motion.div>
           </div>

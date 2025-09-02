@@ -134,7 +134,7 @@ export default function Home() {
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </Link>
                 <Link href="/connect" className="modern-button-outline">
-                  Let's Connect
+                  Let&apos;s Connect
                 </Link>
               </motion.div>
 
@@ -299,11 +299,11 @@ export default function Home() {
           >
             <Coffee className="h-12 w-12 text-dark-wood-600 mx-auto mb-6 floating" />
             <h2 className="text-3xl lg:text-4xl font-serif font-bold text-dark-wood-950 mb-4">
-              Let's Create Something Amazing Together
+              Let&apos;s Create Something Amazing Together
             </h2>
             <p className="text-lg text-dark-wood-700 mb-8 max-w-2xl mx-auto">
-              Whether it's a digital solution, a handcrafted piece, or an innovative blend of both, 
-              I'm always excited to collaborate on meaningful projects.
+              Whether it&apos;s a digital solution, a handcrafted piece, or an innovative blend of both, 
+              I&apos;m always excited to collaborate on meaningful projects.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact" className="cafe-button">

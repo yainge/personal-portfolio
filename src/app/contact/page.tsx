@@ -70,7 +70,7 @@ export default function Contact() {
         message: '',
         projectType: ''
       })
-    } catch (error) {
+    } catch {
       setSubmitStatus('error')
     } finally {
       setIsSubmitting(false)
@@ -94,7 +94,7 @@ export default function Contact() {
           >
             <h1 className="section-title mb-8">Get In Touch</h1>
             <p className="text-xl text-dark-wood-700 max-w-3xl mx-auto leading-relaxed">
-              Let's discuss your next project, whether it's a digital solution, a handcrafted piece, 
+              Let&apos;s discuss your next project, whether it&apos;s a digital solution, a handcrafted piece, 
               or an innovative blend of technology and traditional craftsmanship.
             </p>
           </motion.div>
@@ -113,12 +113,12 @@ export default function Contact() {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <h2 className="text-2xl font-serif font-bold text-dark-wood-950 mb-6">
-                  Let's Start a Conversation
+                  Let&apos;s Start a Conversation
                 </h2>
                 <p className="text-dark-wood-700 leading-relaxed mb-8">
-                  Whether you're looking for custom development, handcrafted furniture, 
+                  Whether you&apos;re looking for custom development, handcrafted furniture, 
                   or exploring innovative projects that bridge digital and physical worlds, 
-                  I'd love to hear about your vision.
+                  I&apos;d love to hear about your vision.
                 </p>
 
                 {/* Contact Methods */}
@@ -200,7 +200,7 @@ export default function Contact() {
                       <div className="text-green-900">
                         <div className="font-medium">Message sent successfully!</div>
                         <div className="text-sm text-green-700">
-                          I'll get back to you within 24-48 hours.
+                          I&apos;ll get back to you within 24-48 hours.
                         </div>
                       </div>
                     </div>
@@ -317,7 +317,7 @@ export default function Contact() {
                         <option value="5k-10k">$5,000 - $10,000</option>
                         <option value="10k-25k">$10,000 - $25,000</option>
                         <option value="25k-plus">$25,000+</option>
-                        <option value="discuss">Let's discuss</option>
+                        <option value="discuss">Let&apos;s discuss</option>
                       </select>
                     </div>
                   </div>

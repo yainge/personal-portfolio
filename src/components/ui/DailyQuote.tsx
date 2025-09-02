@@ -37,7 +37,6 @@ export default function DailyQuote() {
 
   useEffect(() => {
     // Get today's quote based on date
-    const today = new Date().toDateString()
     const dayIndex = new Date().getDate() % sampleQuotes.length
     setCurrentQuote(sampleQuotes[dayIndex])
   }, [])
