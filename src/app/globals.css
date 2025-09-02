@@ -149,6 +149,26 @@
   .accent-green-emerald {
     @apply bg-emerald-green-500;
   }
+
+  .cafe-card {
+    @apply bg-white border-l-4 border-sage-green-500 shadow-lg 
+           backdrop-blur-sm transition-all duration-300 hover:shadow-xl 
+           hover:border-l-8 hover:-translate-y-1 rounded-lg;
+  }
+
+  .cafe-button {
+    @apply bg-forest-green-600 text-white px-8 py-4 font-medium
+           transition-all duration-300 hover:bg-forest-green-700 
+           shadow-lg hover:shadow-xl active:scale-95 uppercase tracking-wide
+           rounded-lg;
+  }
+
+  .cafe-button-outline {
+    @apply border-2 border-forest-green-600 text-forest-green-600 px-8 py-4 
+           font-medium transition-all duration-300 hover:bg-forest-green-600 
+           hover:text-white shadow-lg hover:shadow-xl bg-transparent 
+           uppercase tracking-wide rounded-lg;
+  }
 }
 
 @layer utilities {
