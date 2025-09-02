@@ -3,8 +3,7 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
-// Temporary redirect to /connect page
-export default function Home() {
+export default function RedirectToConnect() {
   const router = useRouter()
   
   useEffect(() => {

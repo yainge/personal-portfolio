@@ -62,7 +62,7 @@ const socialCategories: SocialCategory[] = [
       {
         name: 'Etsy Shop',
         handle: 'YuphoriaYuki.io',
-        url: 'https://etsy.com/shop/YuphoriaYuki',
+        url: 'https://yuphoriayuki.etsy.com',
         icon: ShoppingBag,
         description: 'Coming Soon..',
         // followers: '25+ sales'
