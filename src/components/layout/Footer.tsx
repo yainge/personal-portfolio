@@ -37,13 +37,13 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-cream-100/80 max-w-md leading-relaxed mb-6">
-              Where code meets craft. Building digital solutions and creating tangible art, 
-              bridging technology and traditional making through development, electronics, 
+              Where code meets Building digital solutions and creating tangible art,
+              bridging technology and traditional making through development, electronics,
               woodworking, and creative expression.
             </p>
-            
+
             {/* Daily Quote Preview */}
-            <motion.div 
+            <motion.div
               className="glass-morphism p-4 rounded-lg"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -116,7 +116,7 @@ export default function Footer() {
               <span>Built with passion for code and craft</span>
               <Heart className="h-4 w-4 text-red-400 ml-1" />
             </div>
-            
+
             <div className="text-cream-100/40 text-xs">
               <span>Powered by coffee ☕ and creativity ✨</span>
             </div>

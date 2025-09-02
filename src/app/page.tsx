@@ -53,18 +53,18 @@ export default function Home() {
       <section className="relative py-20 lg:py-32 overflow-hidden">
         {/* Background Effects */}
         <div className="absolute inset-0 overflow-hidden">
-          <motion.div 
+          <motion.div
             className="absolute top-20 left-10 w-72 h-72 bg-cream-100/30 rounded-full blur-3xl"
-            animate={{ 
+            animate={{
               x: [0, 100, 0],
               y: [0, -50, 0],
               scale: [1, 1.2, 1]
             }}
             transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
           />
-          <motion.div 
+          <motion.div
             className="absolute bottom-20 right-10 w-96 h-96 bg-cream-50/20 rounded-full blur-3xl"
-            animate={{ 
+            animate={{
               x: [0, -80, 0],
               y: [0, 30, 0],
               scale: [1, 1.1, 1]
@@ -97,75 +97,75 @@ export default function Home() {
                 <span className="block text-cream-100/90">Ainge</span>
               </h1>
 
-              <div className="text-xl lg:text-2xl text-forest-green-300 mb-6 space-y-2">
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.8, delay: 0.4 }}
-                  className="flex items-center space-x-3"
-                >
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+                className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-6 border border-white/20"
+              >
+                <div className="text-xl lg:text-2xl text-forest-green-800 font-bold flex items-center justify-center space-x-3">
                   <span>Developer</span>
-                  <span className="text-forest-green-400">•</span>
+                  <span className="text-forest-green-600">•</span>
                   <span>Maker</span>
-                  <span className="text-forest-green-400">•</span>
+                  <span className="text-forest-green-600">•</span>
                   <span>Creator</span>
-                </motion.div>
-              </div>
+                </div>
+              </motion.div>
 
-              <motion.p
+              <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
-                className="text-lg text-forest-green-300 mb-8 max-w-xl leading-relaxed"
+                className="bg-white/20 backdrop-blur-sm rounded-lg p-6 mb-8 max-w-xl border border-white/30"
               >
-                Where code meets craft. I build digital solutions and create tangible art, 
-                bridging the gap between technology and traditional making through 
-                development, electronics, woodworking, and creative expression.
-              </motion.p>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.8 }}
-                className="flex flex-wrap gap-4"
-              >
-                <Link href="/work" className="modern-button group">
-                  <span>Explore My Work</span>
-                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
-                </Link>
-                <Link href="/connect" className="modern-button-outline">
-                  Let&apos;s Connect
-                </Link>
+                <p className="text-lg text-forest-green-800 leading-relaxed font-medium">
+                  Where technology meets art. I want to spend my time creating, building, inventing.
+                </p>
               </motion.div>
 
-              {/* Skills Icons */}
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.8, delay: 1 }}
-                className="flex items-center space-x-6 mt-12"
-              >
-                {skills.map((skill, index) => {
-                  const Icon = skill.icon
-                  return (
-                    <motion.div
-                      key={skill.name}
-                      className="flex flex-col items-center group cursor-pointer"
-                      whileHover={{ scale: 1.1, y: -5 }}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: 1.2 + index * 0.1 }}
-                    >
-                      <div className="bg-cream-50/20 p-3 rounded-lg group-hover:bg-cream-50/30 transition-colors duration-300">
-                        <Icon className={`h-6 w-6 text-cream-200`} />
-                      </div>
-                      <span className="text-xs text-cream-200/60 mt-2 group-hover:text-cream-200/80 transition-colors duration-300">
-                        {skill.name}
-                      </span>
-                    </motion.div>
-                  )
-                })}
-              </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.8 }}
+                  className="flex flex-wrap gap-4"
+                >
+                  <Link href="/work" className="modern-button group">
+                    <span>Explore My Work</span>
+                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
+                  </Link>
+                  <Link href="/connect" className="modern-button-outline">
+                    Let&apos;s Connect
+                  </Link>
+                </motion.div>
+
+                {/* Skills Icons */}
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.8, delay: 1 }}
+                  className="flex items-center space-x-6 mt-12"
+                >
+                  {skills.map((skill, index) => {
+                    const Icon = skill.icon
+                    return (
+                      <motion.div
+                        key={skill.name}
+                        className="flex flex-col items-center group cursor-pointer"
+                        whileHover={{ scale: 1.1, y: -5 }}
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 1.2 + index * 0.1 }}
+                      >
+                        <div className="bg-cream-50/20 p-3 rounded-lg group-hover:bg-cream-50/30 transition-colors duration-300">
+                          <Icon className={`h-6 w-6 text-cream-200`} />
+                        </div>
+                        <span className="text-xs text-cream-200/60 mt-2 group-hover:text-cream-200/80 transition-colors duration-300">
+                          {skill.name}
+                        </span>
+                      </motion.div>
+                    )
+                  })}
+                </motion.div>
             </motion.div>
 
             {/* Daily Quote */}
@@ -302,7 +302,7 @@ export default function Home() {
               Let&apos;s Create Something Amazing Together
             </h2>
             <p className="text-lg text-dark-wood-700 mb-8 max-w-2xl mx-auto">
-              Whether it&apos;s a digital solution, a handcrafted piece, or an innovative blend of both, 
+              Whether it&apos;s a digital solution, a handcrafted piece, or an innovative blend of both,
               I&apos;m always excited to collaborate on meaningful projects.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

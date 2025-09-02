@@ -32,16 +32,16 @@ const socialCategories: SocialCategory[] = [
         handle: '@yukiainge',
         url: 'https://github.com/yukiainge',
         icon: Github,
-        description: 'Open source projects and code repositories',
-        followers: '50+ repositories'
+        description: 'Personal and open-source projects',
+        // followers: '50+ repositories'
       },
       {
         name: 'LinkedIn',
         handle: 'Yuki Ainge',
-        url: 'https://linkedin.com/in/yuki-ainge',
+        url: 'https://linkedin.com/in/yukiainge',
         icon: Linkedin,
         description: 'Professional network and career updates',
-        followers: 'Building connections'
+        // followers: 'Building connections'
       }
     ]
   },
@@ -56,7 +56,7 @@ const socialCategories: SocialCategory[] = [
         handle: '@yuksterr',
         url: 'https://instagram.com/yuksterr',
         icon: Instagram,
-        description: 'Pursonal Profile',
+        description: 'Personal Profile',
         // followers: 'Growing community'
       },
       {
@@ -64,7 +64,7 @@ const socialCategories: SocialCategory[] = [
         handle: 'YuphoriaYuki.io',
         url: 'https://etsy.com/shop/YuphoriaYuki',
         icon: ShoppingBag,
-        description: 'Comming Soon',
+        description: 'Coming Soon..',
         // followers: '25+ sales'
       }
     ]
@@ -88,7 +88,7 @@ const socialCategories: SocialCategory[] = [
         handle: 'Weekly Updates',
         url: '/blog',
         icon: FileText,
-        description: 'Comming Soon - Technical articles and project insights',
+        description: 'Coming Soon - Technical articles and project insights',
         // followers: 'New posts weekly'
       }
     ]
@@ -137,7 +137,7 @@ export default function Connect() {
             <h1 className="section-title mb-8">Let&apos;s Connect</h1>
             <p className="text-xl text-dark-wood-700 max-w-3xl mx-auto leading-relaxed">
               I believe in the power of meaningful connections. Whether you&apos;re interested in collaboration,
-              learning, or just want to chat about technology or craft, I&apos;d love to hear from you.
+              learning, or just want to chat about engineering and building cool things, I&apos;d love to hear from you.
             </p>
           </motion.div>
         </div>
