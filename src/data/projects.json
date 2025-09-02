@@ -1,0 +1,104 @@
+{
+  "projects": [
+    {
+      "id": "pov-led-poi",
+      "title": "Programmable POV LED Strip Poi",
+      "category": "electronics",
+      "featured": true,
+      "status": "completed",
+      "description": "Interactive LED poi using persistence of vision effects to create stunning light displays. Features programmable patterns, motion sensors, and wireless synchronization for dynamic flow art performances.",
+      "longDescription": "This project combines my passion for flow arts with advanced electronics programming. The poi create visual patterns through precisely timed LED sequences that appear to float in the air due to persistence of vision effects. Each poi contains 144 individually addressable LEDs, an IMU for motion detection, and wireless communication for synchronized performances.",
+      "technologies": ["Arduino", "C++", "WS2812B LEDs", "IMU Sensors", "Bluetooth", "3D Printing"],
+      "images": [
+        "/images/projects/poi-demo-1.jpg",
+        "/images/projects/poi-circuit.jpg",
+        "/images/projects/poi-performance.mp4"
+      ],
+      "github": "https://github.com/yukiainge/led-poi",
+      "demo": "https://poi-demo.yukiainge.com",
+      "year": 2024,
+      "duration": "3 months",
+      "challenges": ["Achieving smooth 60fps LED updates", "Balancing weight and battery life", "Creating intuitive pattern programming interface"],
+      "outcomes": ["Featured at 3 flow art festivals", "Open-sourced for community use", "Inspired similar projects worldwide"]
+    },
+    {
+      "id": "organization-app",
+      "title": "Personal Organization App",
+      "category": "development",
+      "featured": true,
+      "status": "completed",
+      "description": "Streamlined task management and productivity application built with modern web technologies. Features project tracking, time management, and workflow optimization for creative professionals.",
+      "longDescription": "Designed specifically for makers and creatives who juggle multiple projects across different disciplines. The app intelligently categorizes tasks by project type, tracks time spent on different activities, and provides insights into productivity patterns.",
+      "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
+      "images": [
+        "/images/projects/org-app-dashboard.jpg",
+        "/images/projects/org-app-projects.jpg"
+      ],
+      "github": "https://github.com/yukiainge/organization-app",
+      "demo": "https://organize.yukiainge.com",
+      "year": 2024,
+      "duration": "2 months",
+      "challenges": ["Designing flexible project categorization", "Balancing simplicity with power features", "Ensuring fast performance with large datasets"],
+      "outcomes": ["Daily use by 50+ makers", "95% user satisfaction rate", "Featured on Product Hunt"]
+    },
+    {
+      "id": "custom-dining-tables",
+      "title": "Custom Dining Tables",
+      "category": "woodworking",
+      "featured": true,
+      "status": "ongoing",
+      "description": "Handcrafted dining tables featuring traditional joinery techniques and modern design aesthetics. Each piece is custom-designed and built using sustainably sourced hardwoods.",
+      "longDescription": "These tables represent the intersection of traditional craftsmanship and contemporary design. Using mortise and tenon joinery exclusively, each table is built to last generations while incorporating modern proportions and finishes that complement today's living spaces.",
+      "technologies": ["Hardwood (Walnut, Oak, Cherry)", "Mortise & Tenon Joinery", "Hand Tools", "Natural Oil Finishes"],
+      "images": [
+        "/images/projects/table-walnut-1.jpg",
+        "/images/projects/table-process.jpg",
+        "/images/projects/table-detail.jpg"
+      ],
+      "github": null,
+      "demo": "https://shop.yukiainge.com/tables",
+      "year": 2023,
+      "duration": "Ongoing",
+      "challenges": ["Sourcing sustainable hardwoods", "Achieving perfect joinery by hand", "Balancing traditional and modern aesthetics"],
+      "outcomes": ["12 tables completed", "100% customer satisfaction", "Waiting list of 6 months"]
+    },
+    {
+      "id": "garmin-flow-apps",
+      "title": "Garmin Flow Arts Apps",
+      "category": "development",
+      "featured": false,
+      "status": "completed",
+      "description": "Custom Garmin Connect IQ applications for flow arts training and performance tracking.",
+      "technologies": ["Monkey C", "Connect IQ SDK", "Garmin API"],
+      "github": "https://github.com/yukiainge/garmin-flow-apps",
+      "demo": "https://apps.garmin.com/en-US/developer/yukiainge",
+      "year": 2024,
+      "duration": "1 month"
+    },
+    {
+      "id": "modular-flow-toys",
+      "title": "Modular Flow Toys",
+      "category": "electronics",
+      "featured": false,
+      "status": "in-progress",
+      "description": "Customizable hardware platform for creating various flow art props with interchangeable components.",
+      "technologies": ["Arduino", "3D Printing", "PCB Design", "CAD", "Fusion 360"],
+      "github": "https://github.com/yukiainge/modular-flow",
+      "year": 2024,
+      "duration": "4 months"
+    },
+    {
+      "id": "laser-cut-shelves",
+      "title": "Modular Shelf System",
+      "category": "woodworking",
+      "featured": false,
+      "status": "completed",
+      "description": "Precision laser-cut modular shelving system with customizable configurations.",
+      "technologies": ["Laser Cutting", "CAD Design", "Plywood", "CNC"],
+      "github": null,
+      "demo": "https://shop.yukiainge.com/shelves",
+      "year": 2023,
+      "duration": "2 months"
+    }
+  ]
+}

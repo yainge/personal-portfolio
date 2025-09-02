@@ -1,0 +1,77 @@
+{
+  "quotes": [
+    {
+      "id": "1",
+      "text": "The intersection of technology and craft creates endless possibilities.",
+      "author": "Yuki Ainge",
+      "date": "2024-01-15T10:30:00Z",
+      "category": "philosophy",
+      "source": "personal reflection"
+    },
+    {
+      "id": "2",
+      "text": "Every line of code is a brushstroke in the digital canvas.",
+      "date": "2024-01-16T14:22:00Z",
+      "category": "coding",
+      "source": "sms"
+    },
+    {
+      "id": "3",
+      "text": "Traditional woodworking teaches patience that makes better developers.",
+      "date": "2024-01-17T08:45:00Z",
+      "category": "craftsmanship",
+      "source": "email"
+    },
+    {
+      "id": "4",
+      "text": "The best solutions emerge when we stop forcing technology and start listening to the material.",
+      "date": "2024-01-18T16:20:00Z",
+      "category": "design",
+      "source": "sms"
+    },
+    {
+      "id": "5",
+      "text": "Flow arts teach us that beauty lies in the space between intention and improvisation.",
+      "author": "Yuki Ainge",
+      "date": "2024-01-19T12:10:00Z",
+      "category": "art",
+      "source": "personal reflection"
+    },
+    {
+      "id": "6",
+      "text": "A well-crafted function is like a perfectly cut joint - invisible when done right.",
+      "date": "2024-01-20T09:30:00Z",
+      "category": "coding",
+      "source": "sms"
+    },
+    {
+      "id": "7",
+      "text": "The grain of the wood teaches us more about structure than any textbook.",
+      "date": "2024-01-21T15:45:00Z",
+      "category": "craftsmanship",
+      "source": "email"
+    },
+    {
+      "id": "8",
+      "text": "Innovation happens when we apply ancient wisdom to modern problems.",
+      "date": "2024-01-22T11:15:00Z",
+      "category": "philosophy",
+      "source": "sms"
+    },
+    {
+      "id": "9",
+      "text": "The most sophisticated technology should feel effortlessly simple to use.",
+      "date": "2024-01-23T13:00:00Z",
+      "category": "design",
+      "source": "email"
+    },
+    {
+      "id": "10",
+      "text": "In both code and craft, the tool becomes an extension of thought.",
+      "author": "Yuki Ainge",
+      "date": "2024-01-24T17:30:00Z",
+      "category": "philosophy",
+      "source": "personal reflection"
+    }
+  ]
+}
