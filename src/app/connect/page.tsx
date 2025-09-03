@@ -97,19 +97,19 @@ const socialCategories: SocialCategory[] = [
 
 const quickConnect = [
   {
-    title: 'Project Collaboration',
-    description: 'Have an interesting project idea?',
-    action: 'Start a Discussion',
-    href: '/contact',
-    icon: Code,
-    color: 'bg-dark-wood-950 text-cream-50 hover:bg-dark-wood-900'
-  },
-  {
     title: 'Coffee Chat',
     description: 'Let\'s grab a coffee and talk',
     action: 'Schedule a Chat',
-    href: 'mailto:yuki@ainge.com?subject=Coffee Chat Request',
+    href: '/contact',
     icon: Coffee,
+    color: 'bg-dark-wood-950 text-cream-50 hover:bg-dark-wood-900'
+  },
+  {
+    title: 'Project Collaboration',
+    description: 'Have an interesting project idea?',
+    action: 'Start a Discussion',
+    href: 'mailto:yuki@ainge.com?subject=Coffee Chat Request',
+    icon: Code,
     color: 'bg-forest-green-600 text-white hover:bg-forest-green-700'
   },
   {
@@ -137,7 +137,7 @@ export default function Connect() {
             <h1 className="section-title mb-8">Let&apos;s Connect</h1>
             <p className="text-xl text-dark-wood-700 max-w-3xl mx-auto leading-relaxed">
               I believe in the power of meaningful connections. Whether you&apos;re interested in collaboration,
-              learning, or just want to chat about engineering and building cool things, I&apos;d love to hear from you.
+              engineering, or just want to chat about a neat project, I&apos;d love to hear from you.
             </p>
           </motion.div>
         </div>
