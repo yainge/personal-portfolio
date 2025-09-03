@@ -28,6 +28,14 @@ const socialCategories: SocialCategory[] = [
     iconColor: 'text-blue-600',
     links: [
       {
+        name: 'LinkedIn',
+        handle: 'Yuki Ainge',
+        url: 'https://linkedin.com/in/yukiainge',
+        icon: Linkedin,
+        description: 'Professional network and career updates',
+        // followers: 'Building connections'
+      },
+      {
         name: 'GitHub',
         handle: '@yukiainge',
         url: 'https://github.com/yukiainge',
@@ -35,21 +43,13 @@ const socialCategories: SocialCategory[] = [
         description: 'Personal and open-source projects',
         // followers: '50+ repositories'
       },
-      {
-        name: 'LinkedIn',
-        handle: 'Yuki Ainge',
-        url: 'https://linkedin.com/in/yukiainge',
-        icon: Linkedin,
-        description: 'Professional network and career updates',
-        // followers: 'Building connections'
-      }
     ]
   },
   {
-    title: 'Creative',
-    description: 'Follow my creative journey and handmade products',
-    color: 'bg-purple-50 border-purple-200',
-    iconColor: 'text-purple-600',
+    title: 'Personal',
+    description: 'Interests, hobbies, and casual connections',
+    color: 'bg-green-50 border-green-200',
+    iconColor: 'text-green-600',
     links: [
       {
         name: 'Instagram',
@@ -60,36 +60,36 @@ const socialCategories: SocialCategory[] = [
         // followers: 'Growing community'
       },
       {
-        name: 'Etsy Shop',
-        handle: 'YuphoriaYuki.io',
-        url: 'https://yuphoriayuki.etsy.com',
-        icon: ShoppingBag,
-        description: 'Coming Soon..',
-        // followers: '25+ sales'
-      }
-    ]
-  },
-  {
-    title: 'Personal',
-    description: 'Interests, hobbies, and casual connections',
-    color: 'bg-green-50 border-green-200',
-    iconColor: 'text-green-600',
-    links: [
-      {
         name: 'Chess.com',
         handle: '@yukiainge69',
         url: 'https://chess.com/member/yukiainge69',
         icon: Gamepad2,
         description: 'Play Chess with me',
         // followers: '1400+ rating'
-      },
+      }
+    ]
+  },
+  {
+    title: 'Creative',
+    description: 'Follow my creative journey and engineering projects',
+    color: 'bg-purple-50 border-purple-200',
+    iconColor: 'text-purple-600',
+    links: [
       {
-        name: 'Dev Blog',
+        name: 'Personal Projects',
         handle: 'Weekly Updates',
         url: '/blog',
         icon: FileText,
         description: 'Coming Soon - Technical articles and project insights',
         // followers: 'New posts weekly'
+      },
+      {
+        name: 'Etsy Shop',
+        handle: 'YuphoriaYuki.io',
+        url: 'https://yuphoriayuki.etsy.com',
+        icon: ShoppingBag,
+        description: 'Coming Soon..',
+        // followers: '25+ sales'
       }
     ]
   }
@@ -106,8 +106,8 @@ const quickConnect = [
   },
   {
     title: 'Coffee Chat',
-    description: 'Let\'s grab a virtual coffee and talk',
-    action: 'Schedule a Call',
+    description: 'Let\'s grab a coffee and talk',
+    action: 'Schedule a Chat',
     href: 'mailto:yuki@ainge.com?subject=Coffee Chat Request',
     icon: Coffee,
     color: 'bg-forest-green-600 text-white hover:bg-forest-green-700'
@@ -118,7 +118,7 @@ const quickConnect = [
     action: 'Send a Message',
     href: '/contact',
     icon: MessageSquare,
-    color: 'bg-gold-500 text-dark-wood-950 hover:bg-gold-600'
+    color: 'bg-light-green-500 text-dark-wood-950 hover:bg-light-green-700'
   }
 ]
 
