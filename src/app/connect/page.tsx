@@ -38,7 +38,7 @@ const socialCategories: SocialCategory[] = [
       {
         name: 'GitHub',
         handle: '@yukiainge',
-        url: 'https://github.com/yukiainge',
+        url: 'https://github.com/yainge',
         icon: Github,
         description: 'Personal and open-source projects',
         // followers: '50+ repositories'
@@ -62,7 +62,7 @@ const socialCategories: SocialCategory[] = [
       {
         name: 'Chess.com',
         handle: '@yukiainge69',
-        url: 'https://chess.com/member/yukiainge69',
+        url: 'https://link.chess.com/play/0ylExM',
         icon: Gamepad2,
         description: 'Play Chess with me',
         // followers: '1400+ rating'
@@ -137,7 +137,7 @@ export default function Connect() {
             <h1 className="section-title mb-8">Let&apos;s Connect</h1>
             <p className="text-xl text-dark-wood-700 max-w-3xl mx-auto leading-relaxed">
               I believe in the power of meaningful connections. Whether you&apos;re interested in collaboration,
-              engineering, or just want to chat about a neat project, I&apos;d love to hear from you.
+              creative endeavors, or just want to chat about engineering, I&apos;d love to hear from you.
             </p>
           </motion.div>
         </div>
