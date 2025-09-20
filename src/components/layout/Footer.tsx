@@ -16,6 +16,7 @@ const quickLinks = [
   { name: 'Work', href: '/work' },
   { name: 'Blog', href: '/blog' },
   { name: 'Store', href: '/store' },
+  { name: 'Contact', href: '/contact' },
 ]
 
 export default function Footer() {
