@@ -155,10 +155,61 @@
   }
 
   .cafe-button-outline {
-    @apply border-2 border-forest-green-600 text-forest-green-600 px-8 py-4 
-           font-medium transition-all duration-300 hover:bg-forest-green-600 
-           hover:text-forest-green-100 shadow-lg hover:shadow-xl bg-transparent 
+    @apply border-2 border-forest-green-600 text-forest-green-600 px-8 py-4
+           font-medium transition-all duration-300 hover:bg-forest-green-600
+           hover:text-forest-green-100 shadow-lg hover:shadow-xl bg-transparent
            uppercase tracking-wide rounded-lg;
+  }
+
+  /* Windows 2000 Visualizer Styles */
+  .windows-frame {
+    @apply border-2 border-gray-400 shadow-2xl;
+    background: #c0c0c0;
+    box-shadow:
+      inset 1px 1px 0px rgba(255, 255, 255, 0.8),
+      inset -1px -1px 0px rgba(128, 128, 128, 0.8),
+      2px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .windows-titlebar {
+    @apply px-2 py-1;
+    background: linear-gradient(90deg, #0050d0 0%, #4080ff 50%, #0050d0 100%);
+    border-bottom: 1px solid #003db0;
+  }
+
+  .windows-control-btn {
+    @apply w-5 h-4 text-xs font-bold border border-gray-600 bg-gray-200
+           hover:bg-gray-300 active:bg-gray-400 flex items-center justify-center;
+    box-shadow:
+      inset 1px 1px 0px rgba(255, 255, 255, 0.8),
+      inset -1px -1px 0px rgba(128, 128, 128, 0.8);
+  }
+
+  .win2k-btn {
+    @apply border-2 border-gray-600 bg-gray-200 text-black font-bold
+           hover:bg-gray-300 active:bg-gray-400 transition-colors duration-100;
+    box-shadow:
+      inset 1px 1px 0px rgba(255, 255, 255, 0.8),
+      inset -1px -1px 0px rgba(128, 128, 128, 0.8);
+  }
+
+  .win2k-btn.pressed {
+    @apply bg-gray-400;
+    box-shadow:
+      inset -1px -1px 0px rgba(255, 255, 255, 0.8),
+      inset 1px 1px 0px rgba(128, 128, 128, 0.8);
+  }
+
+  .win2k-btn:active {
+    box-shadow:
+      inset -1px -1px 0px rgba(255, 255, 255, 0.8),
+      inset 1px 1px 0px rgba(128, 128, 128, 0.8);
+  }
+
+  .border-inset {
+    box-shadow:
+      inset -1px -1px 0px rgba(255, 255, 255, 0.8),
+      inset 1px 1px 0px rgba(128, 128, 128, 0.8);
   }
 }
 
