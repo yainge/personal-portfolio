@@ -61,8 +61,8 @@ const socialCategories: SocialCategory[] = [
       },
       {
         name: 'Chess.com',
-        handle: '@yukiainge69',
-        url: 'https://link.chess.com/play/0ylExM',
+        handle: '@yainge69',
+        url: 'https://www.chess.com/member/yainge69',
         icon: Gamepad2,
         description: 'Play Chess with me',
         // followers: '1400+ rating'
