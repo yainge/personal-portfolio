@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Instagram, Mail, MessageSquare, ChevronRight, Globe, Coffee, Gamepad2, FileText, ShoppingBag, Code, LucideIcon } from 'lucide-react'
+import { Github, Linkedin, Instagram, Mail, MessageSquare, ChevronRight, Globe, Coffee, Gamepad2, FileText, ShoppingBag, Code, LucideIcon, Crown, Hammer } from 'lucide-react'
 
 type SocialLink = {
   name: string;
@@ -63,7 +63,7 @@ const socialCategories: SocialCategory[] = [
         name: 'Chess.com',
         handle: '@yainge69',
         url: 'https://www.chess.com/member/yainge69',
-        icon: Gamepad2,
+        icon: Crown,
         description: 'Play Chess with me',
         // followers: '1400+ rating'
       }
@@ -79,7 +79,7 @@ const socialCategories: SocialCategory[] = [
         name: 'Personal Projects',
         handle: 'Weekly Updates',
         url: '/blog',
-        icon: FileText,
+        icon: Hammer,
         description: 'Coming Soon - Technical articles and project insights',
         // followers: 'New posts weekly'
       },
