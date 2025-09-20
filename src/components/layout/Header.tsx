@@ -44,18 +44,22 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3 group">
-            <motion.div
-              className="bg-white p-2 border-l-4 border-mint-green-500 group-hover:border-mint-green-400 transition-colors duration-300"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              <Coffee className="h-6 w-6 text-forest-green-700" />
-            </motion.div>
-            <span className="text-xl font-serif font-bold text-white group-hover:text-mint-green-300 transition-colors duration-300 uppercase tracking-wide">
-              Yuki Ainge
-            </span>
-          </Link>
+          <div className="flex items-center space-x-3">
+            <Link href="/" className="flex items-center space-x-3 group">
+              <motion.div
+                className="bg-white p-2 border-l-4 border-mint-green-500 group-hover:border-mint-green-400 transition-colors duration-300"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <Coffee className="h-6 w-6 text-forest-green-700" />
+              </motion.div>
+            </Link>
+            <Link href="/visualizer" className="group">
+              <span className="text-xl font-serif font-bold text-white group-hover:text-mint-green-300 transition-colors duration-300 uppercase tracking-wide cursor-pointer">
+                Yuki Ainge
+              </span>
+            </Link>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-1">
