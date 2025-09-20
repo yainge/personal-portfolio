@@ -15,13 +15,13 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Yuki Ainge - Developer, Maker, Creator",
-  description: "Where code meets craft. Building digital solutions and creating tangible art through development, electronics, woodworking, and creative expression.",
+  title: "Yuki Ainge - Developer, Creator, Builder",
+  description: "Where Engineering meets Art. Building digital solutions and creating tangible art through engineering, and creative expression.",
   keywords: ["developer", "maker", "woodworking", "electronics", "LED poi", "full-stack", "portfolio"],
   authors: [{ name: "Yuki Ainge" }],
   openGraph: {
     title: "Yuki Ainge - Developer, Maker, Creator",
-    description: "Where code meets craft. Building digital solutions and creating tangible art.",
+    description: "Where engineering meets art. Building solutions and continously creating.",
     url: "https://yukiainge.com",
     siteName: "Yuki Ainge Portfolio",
     type: "website",
@@ -29,7 +29,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Yuki Ainge - Developer, Maker, Creator",
-    description: "Where code meets craft. Building digital solutions and creating tangible art.",
+    description: "Where engineering meets art. Building solutions and continuously creating.",
+    creator: "@ykstrr",
   },
 };
 

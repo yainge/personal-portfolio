@@ -36,10 +36,10 @@ export default function Footer() {
                 Yuki Ainge
               </span>
             </Link>
-            <p className="text-cream-100/80 max-w-md leading-relaxed mb-6">
-              Where code meets Building digital solutions and creating tangible art,
-              bridging technology and traditional making through development, electronics,
-              woodworking, and creative expression.
+            <p className="text-dark-wood-800 max-w-md leading-relaxed mb-6">
+              Where engineering meets art. Building solutions by bridging technology and
+              creative design through software, electronics, upcycling,
+              woodworking, and creative creation.
             </p>
 
             {/* Daily Quote Preview */}
@@ -50,7 +50,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <p className="text-dark-wood-800 text-sm italic">
-                &ldquo;The intersection of technology and craft creates endless possibilities.&rdquo;
+                &ldquo;The intersection of technology and art creates endless possibilities.&rdquo;
               </p>
               <span className="text-dark-wood-600 text-xs mt-1 block">
                 Today&apos;s inspiration
@@ -60,13 +60,13 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-cream-50 font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-dark-wood-800 font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-cream-100/70 hover:text-cream-100 transition-colors duration-300 text-sm"
+                    className="text-dark-wood-800 0 hover:text-dark-wood-700/800  transition-colors duration-300 text-sm"
                   >
                     {link.name}
                   </Link>
@@ -77,7 +77,7 @@ export default function Footer() {
 
           {/* Connect */}
           <div>
-            <h3 className="text-cream-50 font-semibold mb-4">Connect</h3>
+            <h3 className="text-dark-wood-800 font-semibold mb-4">Connect</h3>
             <div className="flex space-x-3">
               {socialLinks.map((social) => {
                 const Icon = social.icon
@@ -87,7 +87,7 @@ export default function Footer() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-cream-50/10 p-2 rounded-lg text-cream-100 hover:bg-cream-50/20 hover:text-cream-50 transition-all duration-300"
+                    className="bg-dark-wood-50/10 p-2 rounded-lg text-dark-wood-600 hover:bg-dark-wood-50/20 hover:text-dark-wood-350 transition-all duration-300"
                     whileHover={{ scale: 1.1, y: -2 }}
                     whileTap={{ scale: 0.9 }}
                   >
@@ -102,7 +102,7 @@ export default function Footer() {
             <div className="mt-4 text-sm">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-cream-100/70">Available for projects</span>
+                <span className="text-dark-wood-800/70">Available for projects</span>
               </div>
             </div>
           </div>
@@ -111,14 +111,14 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-dark-wood-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-1 text-cream-100/60 text-sm mb-4 md:mb-0">
+            <div className="flex items-center space-x-1 text-dark-wood-900 text-sm mb-4 md:mb-0">
               <span>&copy; {new Date().getFullYear()} Yuki Ainge.</span>
-              <span>Built with passion for code and craft</span>
+              <span>Built with a passion for Engineering and Art</span>
               <Heart className="h-4 w-4 text-red-400 ml-1" />
             </div>
 
-            <div className="text-cream-100/40 text-xs">
-              <span>Powered by coffee ☕ and creativity ✨</span>
+            <div className="text-dark-wood-800 text-xs">
+              <span>Powered by matcha ☕ and creativity ✨</span>
             </div>
           </div>
         </div>
