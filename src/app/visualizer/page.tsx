@@ -25,14 +25,18 @@ export default function VisualizerPage() {
   return (
     <>
       <style jsx global>{`
-        /* Hide any quotes, footers, headers on visualizer page */
+        /* Hide any quotes, footers, headers, issues on visualizer page */
         .daily-quote,
         footer,
         header,
         [class*="quote"],
         [class*="inspiration"],
         [class*="footer"],
-        [class*="header"] {
+        [class*="header"],
+        [class*="issue"],
+        [class*="github"],
+        [href*="github.com/issues"],
+        [href*="/issues"] {
           display: none !important;
         }
       `}</style>
