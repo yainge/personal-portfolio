@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Instagram, Mail, MessageSquare, ChevronRight, Globe, Coffee, Gamepad2, FileText, ShoppingBag, Code, LucideIcon, Crown, Hammer } from 'lucide-react'
+import { Github, Linkedin, Instagram, Mail, MessageSquare, ChevronRight, Globe, Coffee, ShoppingBag, Code, LucideIcon, Crown, Hammer } from 'lucide-react'
 
 type SocialLink = {
   name: string;
@@ -42,6 +42,13 @@ const socialCategories: SocialCategory[] = [
         icon: Github,
         description: 'Personal and open-source projects',
         // followers: '50+ repositories'
+      },
+      {
+        name: 'ResearchGate',
+        handle: 'Yuki Ainge',
+        url: 'https://www.researchgate.net/profile/Yuki-Ainge',
+        icon: Globe,
+        description: 'Research publications and academic profile',
       },
     ]
   },
@@ -108,7 +115,7 @@ const quickConnect = [
     title: 'Project Collaboration',
     description: 'Have an interesting project idea?',
     action: 'Start a Discussion',
-    href: 'mailto:yuki@ainge.com?subject=Coffee Chat Request',
+    href: 'mailto:yukikainge.com?subject=Coffee Chat Request',
     icon: Code,
     color: 'bg-forest-green-600 text-white hover:bg-forest-green-700'
   },
