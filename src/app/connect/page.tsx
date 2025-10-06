@@ -43,6 +43,13 @@ const socialCategories: SocialCategory[] = [
         description: 'Personal and open-source projects',
         // followers: '50+ repositories'
       },
+      {
+        name: 'ResearchGate',
+        handle: 'Yuki Ainge',
+        url: 'https://www.researchgate.net/profile/Yuki-Ainge',
+        icon: Globe,
+        description: 'Research publications and academic profile',
+      },
     ]
   },
   {
