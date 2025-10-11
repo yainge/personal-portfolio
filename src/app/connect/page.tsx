@@ -97,7 +97,14 @@ const socialCategories: SocialCategory[] = [
         icon: ShoppingBag,
         description: 'Coming Soon..',
         // followers: '25+ sales'
-      }
+      },
+      {
+       name: 'YouTube',
+        handle: 'Yuphoria-io',
+        url: 'https://www.youtube.com/channel/UCl61fn8QpFdQo8x7AvXSz5g',
+        icon: Globe,
+        description: 'Experimental, for now.',
+      },
     ]
   }
 ]
