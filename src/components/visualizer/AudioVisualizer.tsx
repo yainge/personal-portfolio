@@ -270,7 +270,7 @@ export default function AudioVisualizer({ audioRef, isPlaying }: AudioVisualizer
     }
 
     // Update spheres
-    spheresRef.current.forEach((sphere, sphereIndex) => {
+    spheresRef.current.forEach((sphere) => {
       // Breathing effect
       sphere.breathePhase += 0.02
       const breatheScale = 1 + Math.sin(sphere.breathePhase) * 0.1 * amplitude
@@ -282,7 +282,7 @@ export default function AudioVisualizer({ audioRef, isPlaying }: AudioVisualizer
       sphere.rotationZ += sphere.rotationSpeedZ * rotationMultiplier
 
       // Update particles with noise fields and liquid flow
-      sphere.particles.forEach((particle, particleIndex) => {
+      sphere.particles.forEach((particle) => {
         // Apply noise field forces
         let forceX = 0, forceY = 0, forceZ = 0
 
@@ -372,6 +372,7 @@ export default function AudioVisualizer({ audioRef, isPlaying }: AudioVisualizer
     drawShockwaves(ctx, canvas)
 
     animationRef.current = requestAnimationFrame(animate)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   useEffect(() => {

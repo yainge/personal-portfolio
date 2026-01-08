@@ -52,7 +52,7 @@ export default function Contact() {
             <h1 className="section-title mb-8">Get in Touch</h1>
             <p className="text-xl text-dark-wood-700 max-w-2xl mx-auto leading-relaxed">
               Have a project in mind? Want to collaborate? Or just want to say hello?
-              I'd love to hear from you. Drop me a message and I'll get back to you soon.
+              I&apos;d love to hear from you. Drop me a message and I&apos;ll get back to you soon.
             </p>
           </motion.div>
         </div>
@@ -73,7 +73,7 @@ export default function Contact() {
                 Send a Message
               </h2>
               <p className="text-dark-wood-700">
-                Fill out the form below and I'll respond within 24-48 hours
+                Fill out the form below and I&apos;ll respond within 24-48 hours
               </p>
             </div>
 
@@ -185,7 +185,7 @@ export default function Contact() {
                   className="flex items-center space-x-2 text-green-600 bg-green-50 p-4 rounded-lg"
                 >
                   <CheckCircle className="h-5 w-5" />
-                  <span>Message sent successfully! I'll get back to you soon.</span>
+                  <span>Message sent successfully! I&apos;ll get back to you soon.</span>
                 </motion.div>
               )}
 

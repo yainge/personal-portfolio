@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Instagram, Mail, MessageSquare, ChevronRight, Globe, Coffee, Gamepad2, FileText, ShoppingBag, Code, LucideIcon, Crown, Hammer } from 'lucide-react'
+import { Github, Linkedin, Instagram, Mail, MessageSquare, ChevronRight, Globe, Coffee, ShoppingBag, Code, LucideIcon, Crown, Hammer } from 'lucide-react'
 
 type SocialLink = {
   name: string;
@@ -99,7 +99,15 @@ const socialCategories: SocialCategory[] = [
         // followers: '25+ sales'
       },
       {
-       name: 'YouTube',
+        name: 'Instagram',
+        handle: '@yuphoria.flow',
+        url: 'https://instagram.com/yuphoria.flow',
+        icon: Instagram,
+        description: 'Creative Pursuits',
+        // followers: 'Growing community'
+      },
+      {
+        name: 'YouTube',
         handle: 'Yuphoria-io',
         url: 'https://www.youtube.com/channel/UCl61fn8QpFdQo8x7AvXSz5g',
         icon: Globe,

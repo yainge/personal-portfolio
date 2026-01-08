@@ -119,7 +119,7 @@ export default function Footer() {
             </div>
 
             <div className="text-dark-wood-800 text-xs">
-              <span>Powered by matcha ☕ and creativity ✨</span>
+              <span>Powered by matcha 🍵 and creativity ✨</span>
             </div>
           </div>
         </div>
