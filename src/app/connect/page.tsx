@@ -53,30 +53,6 @@ const socialCategories: SocialCategory[] = [
     ]
   },
   {
-    title: 'Personal',
-    description: 'Interests, hobbies, and casual connections',
-    color: 'bg-green-50 border-green-200',
-    iconColor: 'text-green-600',
-    links: [
-      {
-        name: 'Instagram',
-        handle: '@yuksterr',
-        url: 'https://instagram.com/yuksterr',
-        icon: Instagram,
-        description: 'Personal Profile',
-        // followers: 'Growing community'
-      },
-      {
-        name: 'Chess.com',
-        handle: '@yainge69',
-        url: 'https://www.chess.com/member/yainge69',
-        icon: Crown,
-        description: 'Play Chess with me',
-        // followers: '1400+ rating'
-      }
-    ]
-  },
-  {
     title: 'Creative',
     description: 'Follow my creative journey and engineering projects',
     color: 'bg-purple-50 border-purple-200',
@@ -113,6 +89,30 @@ const socialCategories: SocialCategory[] = [
         icon: Globe,
         description: 'Experimental, for now.',
       },
+    ]
+  },
+  {
+    title: 'Personal',
+    description: 'Interests, hobbies, and casual connections',
+    color: 'bg-green-50 border-green-200',
+    iconColor: 'text-green-600',
+    links: [
+      {
+        name: 'Instagram',
+        handle: '@yuksterr',
+        url: 'https://instagram.com/yuksterr',
+        icon: Instagram,
+        description: 'Personal Profile',
+        // followers: 'Growing community'
+      },
+      {
+        name: 'Chess.com',
+        handle: '@yainge69',
+        url: 'https://www.chess.com/member/yainge69',
+        icon: Crown,
+        description: 'Play Chess with me',
+        // followers: '1400+ rating'
+      }
     ]
   }
 ]
